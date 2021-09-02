@@ -1,2 +1,2 @@
 # my-espresso-test-examples
-This is the place where I will store my expresso tests exercises
+This is the place where I will store my espresso tests exercises

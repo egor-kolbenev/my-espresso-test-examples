@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 29
@@ -13,6 +14,10 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        compileOptions {
+            sourceCompatibility 1.8
+            targetCompatibility 1.8
+        }
     }
     buildTypes {
         release {
@@ -40,5 +45,9 @@ dependencies {
     androidTestImplementation "androidx.test:runner:$androidx_test"
     androidTestImplementation "androidx.test:core:$androidx_test"
     androidTestImplementation "androidx.test.ext:junit-ktx:$androidx_test"
+
+    // Firebase
+    implementation platform('com.google.firebase:firebase-bom:28.4.0')
+    implementation 'com.google.firebase:firebase-analytics'
 
 }
