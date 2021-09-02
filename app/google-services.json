@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "261834823085",
+    "project_id": "my-espresso-exercises",
+    "storage_bucket": "my-espresso-exercises.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261834823085:android:70a1fe6f659ffb54a23d24",
+        "android_client_info": {
+          "package_name": "com.codingwithmitch.espressouitestexamples"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261834823085-2mmuhm4c6rbjljdfsr1iodn6bg3tudcf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8UATvXwy3sld50fh1mIsDzK5uhnKGfvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261834823085-2mmuhm4c6rbjljdfsr1iodn6bg3tudcf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
